@@ -1,0 +1,17 @@
+mport random
+ran_num = random.randint(100,200)
+win = False
+Turns =0
+while win==False:
+    Your_guess = input("Enter a number between 100 and 200")
+    Turns +=1
+    if ran_num==int(Your_guess):
+        print("huaaryy! correct!")
+        print("Number of turns you have used while gussing ?: ",Turns)
+        win == True
+        break
+    else:
+     if ran_num>int(Your_guess):
+        print("guess was low , enter a larger number")
+     else:
+        print(" guess was high, enter smaller  number")
