@@ -1,0 +1,4 @@
+import pyqrcode 
+from pyqrcode import QRCode   
+s ="https://github.com/yashu08/Yashu08"
+url = pyqrcode.create(s)
